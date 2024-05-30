@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body {
+    background-image: linear-gradient(to bottom right, #bbdefb, #90caf9, #1976d2, #272640);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    font-family: 'Courgette', cursive;
+    font-size: 20pt;
+}
+header{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+section{
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.316);
+    font-size: 15pt;
+    margin: auto;
+    padding: 15px;
+    padding-bottom: 80px;
+    width: 500px;
+}
+div#horas{
+    font-size: 18pt;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+div#imagem{
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+    padding: 20px 40px 20px 40px;
+}
+img{
+    border-radius: 100%;
+}
+footer{
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
